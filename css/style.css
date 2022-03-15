@@ -31,7 +31,7 @@ h1{
     margin-top: 100px;
 }
 
-.circle{
+.circle1{
 
     display: inline-block;
     border-radius: 50%;
@@ -42,9 +42,26 @@ h1{
     padding-left: 6px;
     padding-right: 6px;
 }
-.task{
+
+.circle2{
+
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 2px;
+    text-align: center;
+    color: red;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.task-group{
     
-    padding: 50px;
+    padding: 20px;
+}
+
+.task{
+    margin-bottom:10px;
 }
 
 .tag{
@@ -58,4 +75,24 @@ h1{
 
 .tag-blue{
     background-color: rgb(69, 171, 234);
+}
+
+.tag-purple{
+    background-color: rgb(156, 114, 228);
+}
+
+.tag-green{
+    background-color: rgb(100, 192, 169);
+}
+
+.tag-orange{
+    background-color: rgb(242, 158, 51);
+}
+
+.tag-pink{
+    background-color: rgb(216, 99, 161);
+}
+
+.tag-lightgreen{
+    background-color: rgb(176, 201, 38);
 }
