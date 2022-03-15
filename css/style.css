@@ -22,3 +22,40 @@ h1{
     display: inline-block;
     vertical-align: middle;
 }
+
+.container{
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.circle{
+
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid rgb(132, 208, 192);
+    padding: 2px;
+    text-align: center;
+    color: rgb(132, 208, 192);
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.task{
+    
+    padding: 50px;
+}
+
+.tag{
+    display: inline-block;
+    color: white;
+    border-radius: 15px;
+    padding: 9px;
+    font-size: small;
+    
+}
+
+.tag-blue{
+    background-color: rgb(69, 171, 234);
+}
