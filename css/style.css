@@ -28,7 +28,7 @@ h1{
     width: 800px;
     margin: 0 auto;
     background-color: white;
-    margin-top: 100px;
+    margin-top: 2px;
 }
 
 .circle1{
@@ -57,7 +57,9 @@ h1{
 
 .task-group{
     
-    padding: 20px;
+    padding: 15px;
+    margin-bottom: 5px;
+    margin-left: 30px;
 }
 
 .task{
@@ -95,4 +97,36 @@ h1{
 
 .tag-lightgreen{
     background-color: rgb(176, 201, 38);
+}
+
+.container2 {
+    height: 50px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.buttons{
+    width: 300px;
+    height: 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.button1{
+    color: white;
+    background-color: rgb(69, 171, 234);
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+}
+.button2{
+    color: lightgray;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
 }
